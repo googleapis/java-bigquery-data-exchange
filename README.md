@@ -12,6 +12,13 @@ Java idiomatic client for [Analytics Hub][product-docs].
 > make backwards-incompatible changes.
 
 
+:bus: In October 2022, this library has moved to
+[google-cloud-java/java-bigquery-data-exchange](
+https://github.com/googleapis/google-cloud-java/tree/main/java-bigquery-data-exchange).
+This repository will be archived in the future.
+Future releases will appear in the new repository (https://github.com/googleapis/google-cloud-java/releases).
+The Maven artifact coordinates (`com.google.cloud:google-cloud-bigquery-data-exchange`) remain the same.
+
 ## Quickstart
 
 
@@ -22,20 +29,20 @@ If you are using Maven, add this to your pom.xml file:
 <dependency>
   <groupId>com.google.cloud</groupId>
   <artifactId>google-cloud-bigquery-data-exchange</artifactId>
-  <version>0.4.0</version>
+  <version>2.0.0</version>
 </dependency>
 ```
 
 If you are using Gradle without BOM, add this to your dependencies:
 
 ```Groovy
-implementation 'com.google.cloud:google-cloud-bigquery-data-exchange:0.4.0'
+implementation 'com.google.cloud:google-cloud-bigquery-data-exchange:2.0.0'
 ```
 
 If you are using SBT, add this to your dependencies:
 
 ```Scala
-libraryDependencies += "com.google.cloud" % "google-cloud-bigquery-data-exchange" % "0.4.0"
+libraryDependencies += "com.google.cloud" % "google-cloud-bigquery-data-exchange" % "2.0.0"
 ```
 
 ## Authentication
